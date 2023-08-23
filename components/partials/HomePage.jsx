@@ -2,6 +2,7 @@ import React from 'react';
 import CTA from '../common/CTA';
 import Image from 'next/image';
 import Creator from '../common/Creator';
+import Testimonial from '../common/Testimonial';
 
 const HomePage = () => {
   return (
@@ -247,8 +248,12 @@ const HomePage = () => {
           </h1>
         </div>
         {/* --Creator-- */}
-        <div>
+        <div className='pb-7'>
           <Creator />
+        </div>
+        {/* --Testimonial or Feedback-- */}
+        <div>
+          <Testimonial />
         </div>
       </div>
     </div>
