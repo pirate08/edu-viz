@@ -3,6 +3,7 @@ import CTA from '../common/CTA';
 import Image from 'next/image';
 import Creator from '../common/Creator';
 import Testimonial from '../common/Testimonial';
+import Comment from '../common/Comment';
 
 const HomePage = () => {
   return (
@@ -252,8 +253,12 @@ const HomePage = () => {
           <Creator />
         </div>
         {/* --Testimonial or Feedback-- */}
-        <div>
+        <div className='pb-7'>
           <Testimonial />
+        </div>
+        {/* --Comment Section-- */}
+        <div className='pb-7'>
+          <Comment />
         </div>
       </div>
     </div>
