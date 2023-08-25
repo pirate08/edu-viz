@@ -27,7 +27,7 @@ const CTA = () => {
         {/* --Exploring Button-- */}
         <div className='mt-5 flex justify-center'>
           <Link href='#'>
-            <button className='bg-sky-700 hover:bg-sky-800 px-4 py-2 rounded-md text-white text-md md:text-lg'>
+            <button className='bg-sky-700 hover:bg-sky-800 px-4 py-2 rounded-md text-white text-md md:text-lg duration-200 ease-in-out'>
               Start Your Discovery
             </button>
           </Link>
