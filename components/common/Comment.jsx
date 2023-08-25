@@ -73,10 +73,22 @@ const Comment = () => {
         <h1 className='text-xl md:text-2xl font-bold text-blue-900 mb-4'>
           Comments:
         </h1>
-        <ul className='h-full py-5 px-4 md:py-10 md:px-10 bg-white list-disc'>
+        <ul className='h-full py-5 px-4 md:py-10 md:px-10 bg-white rounded-md list-disc'>
+          <li
+            className='text-green-700 md:text-lg ml-2 mb-2'
+            style={{ fontFamily: 'Dancing-script, cursive' }}>
+            "Edu-Viz: Unveiling Insights, Transforming Education. Experience a
+            dynamic journey through data-driven narratives, interactive
+            visualizations, and comprehensive analysis. Explore the intricate
+            tapestry of education in India with user-friendly tools that
+            illuminate literacy, gender gap, state-wise comparisons, and more.
+            Edu-Viz empowers learners, educators, and policymakers with
+            actionable insights, fostering informed decisions for a brighter
+            future."
+          </li>
           {commentList.map((comment, index) => (
             <li
-              className='text-green-700 md:text-lg ml-2'
+              className='text-green-700 md:text-lg ml-2 mb-2'
               style={{ fontFamily: 'Dancing-script, cursive' }}
               key={index}>
               {comment}
