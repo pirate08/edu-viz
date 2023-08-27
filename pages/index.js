@@ -3,6 +3,7 @@ import Header from "@/components/Header"
 import HomePage from "@/components/partials/HomePage"
 import Navbar from "@/components/responsiveness/Navbar"
 import Footer from "@/components/Footer"
+import Connection from "@/components/partials/Connection"
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
       {/* --Home Page */}
       <div>
         <HomePage />
+      </div>
+      {/* --Connection-- */}
+      <div>
+        <Connection />
       </div>
       {/* --Footer-- */}
       <div>
