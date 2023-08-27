@@ -3,7 +3,7 @@ import Header from "@/components/Header"
 import HomePage from "@/components/partials/HomePage"
 import Navbar from "@/components/responsiveness/Navbar"
 import Footer from "@/components/Footer"
-import Connection from "@/components/partials/Connection"
+import Connection from "@/components/common/Connection"
 
 export default function Home() {
   return (
