@@ -5,23 +5,23 @@ import Link from 'next/link';
 const Nav_Items = [
   {
     name: 'Home',
-    link: '#',
+    link: '/',
   },
   {
     name: 'Overview',
-    link: '#',
+    link: '/overview',
   },
   {
     name: 'Literacy',
-    link: '#',
+    link: '/literacy',
   },
   {
     name: 'Gender Gap',
-    link: '#',
+    link: '/gender-gap',
   },
   {
     name: 'Indian States',
-    link: '#',
+    link: '/states',
   },
 ];
 
