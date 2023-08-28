@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Visuals from '../common/Visuals';
 
 const Overview = () => {
   return (
@@ -188,6 +189,10 @@ const Overview = () => {
             ultimately fostering progress and improvement in the educational
             landscape.
           </p>
+        </div>
+        {/* --Visuals and Graphics-- */}
+        <div className='pb-7'>
+          <Visuals />
         </div>
       </div>
     </div>
