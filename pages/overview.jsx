@@ -23,13 +23,13 @@ export default function overview() {
         <Overview />
       </div>
       {/* --Connection-- */}
-      {/* <div>
+      <div>
         <Connection />
-      </div> */}
+      </div>
       {/* --Footer-- */}
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }
