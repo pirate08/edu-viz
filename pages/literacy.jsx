@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Overview from '@/components/partials/Overview';
+import Literacy from '@/components/partials/Literacy';
 import Navbar from '@/components/responsiveness/Navbar';
 import Footer from '@/components/Footer';
 import Connection from '@/components/common/Connection';
@@ -18,9 +18,9 @@ export default function overview() {
           <Navbar />
         </div>
       </div>
-      {/* --Overview Page */}
+      {/* --Literacy Page */}
       <div>
-        <Overview />
+        <Literacy />
       </div>
       {/* --Connection-- */}
       <div>
