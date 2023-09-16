@@ -23,13 +23,13 @@ const gender = () => {
         <Gender />
       </div>
       {/* --Connection-- */}
-      {/* <div>
+      <div>
         <Connection />
-      </div> */}
+      </div>
       {/* --Footer-- */}
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 };
