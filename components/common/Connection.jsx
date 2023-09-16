@@ -15,11 +15,21 @@ const Connection = () => {
         <h1 className='text-lg'>Get connected with us on social networks:</h1>
         {/* --Icons-- */}
         <div className='flex items-center gap-4 mt-2 cursor-pointer text-lg'>
-          <BsFacebook />
-          <BsTwitter />
-          <BsGoogle />
-          <BsInstagram />
-          <BsLinkedin />
+          <button className='hover:text-white'>
+            <BsFacebook />
+          </button>
+          <button className='hover:text-white'>
+            <BsTwitter />
+          </button>
+          <button className='hover:text-white'>
+            <BsGoogle />
+          </button>
+          <button className='hover:text-white'>
+            <BsInstagram />
+          </button>
+          <button className='hover:text-white'>
+            <BsLinkedin />
+          </button>
         </div>
       </div>
     </div>
