@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`absolute z-20 h-96 w-full flex flex-col items-end gap-10 bg-blue-950 text-white px-9 py-12 transition-transform ease-in-out duration-500 ${visible}`}>
+        className={`absolute z-20 h-96 w-full flex flex-col items-end gap-10 bg-black text-white px-9 py-12 transition-transform ease-in-out duration-500 ${visible}`}>
         {Nav_Items.map((nav, index) => (
           <div key={index}>
             <ul>

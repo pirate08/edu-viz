@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Literacy from '@/components/partials/Literacy';
+import Gender from '@/components/partials/Gender';
 import Navbar from '@/components/responsiveness/Navbar';
 import Footer from '@/components/Footer';
 import Connection from '@/components/common/Connection';
 
-export default function overview() {
+const gender = () => {
   return (
     <div>
       <div>
@@ -18,18 +18,20 @@ export default function overview() {
           <Navbar />
         </div>
       </div>
-      {/* --Literacy Page-- */}
+      {/* --Gender-Gap Page-- */}
       <div>
-        <Literacy />
+        <Gender />
       </div>
       {/* --Connection-- */}
-      <div>
+      {/* <div>
         <Connection />
-      </div>
+      </div> */}
       {/* --Footer-- */}
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
-}
+};
+
+export default gender;
